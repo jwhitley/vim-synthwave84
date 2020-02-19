@@ -32,7 +32,7 @@ Color: s_tolopea            #2C2540                7        LightGray
 Color: s_oslogray           #888690                7        LightGray
 Color: s_lightgray          #D4D3D7                7        LightGray
 Color: s_yellow             #FEDE5D                11       Yellow
-Color: s_governorbay        #495495                14       Cyan
+Color: s_governorbay        #7f87c4                14       Cyan
 Color: s_grape              #3E3B4B                8        DarkGray
 Color: s_red                #E55A5E                9        Red
 Color: s_lightred           #EB8F82                224      LightRed
