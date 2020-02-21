@@ -123,10 +123,10 @@ Cursor               black               fg
 CursorColumn         none                s_tolopea
 CursorLine           none                s_tolopea
 CursorLineNr         s_lightgray         s_tolopea         g=bold
-DiffAdd              none                s_green
-DiffChange           none                s_magenta
-DiffDelete           black               s_lightred        g=bold
-DiffText             none                red               bold
+DiffAdd              s_green             none
+DiffChange           s_magenta           none
+DiffDelete           s_lightred          none              g=bold
+DiffText             red                 none              bold
 FoldColumn           s_governorbay       s_tolopea
 Folded               s_governorbay       s_tolopea
 LineNr               s_oslogray          none
