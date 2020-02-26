@@ -182,3 +182,7 @@ CocErrorHighlight       none                none             undercurl guisp=red
 CocWarningHighlight     none                none             undercurl guisp=s_orange
 CocInfoHighlight        none                none             undercurl guisp=s_lightgray
 CocHintHighlight        none                none             undercurl guisp=s_green
+CocErrorVirtualText     s_oslogray          none
+CocWarningVirtualText   s_oslogray          none
+CocInfoVirtualText      s_oslogray          none
+CocHintVirtualText      s_oslogray          none
