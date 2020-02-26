@@ -178,3 +178,7 @@ gitcommitUntrackedFile  s_red               none
 
 # coc.nvim
 CocUnderline            none                none             undercurl guisp=s_white
+CocErrorHighlight       none                none             undercurl guisp=red
+CocWarningHighlight     none                none             undercurl guisp=s_orange
+CocInfoHighlight        none                none             undercurl guisp=s_lightgray
+CocHintHighlight        none                none             undercurl guisp=s_green
