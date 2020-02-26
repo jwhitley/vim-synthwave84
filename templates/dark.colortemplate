@@ -175,3 +175,6 @@ gitcommitSelectedType   s_governorbay2      none
 gitcommitSelectedFile   s_green             none 
 gitcommitUntrackedFile  s_red               none
 # }}}
+
+# coc.nvim
+CocUnderline            none                none             undercurl guisp=s_white
