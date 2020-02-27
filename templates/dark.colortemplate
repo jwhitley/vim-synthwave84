@@ -31,9 +31,10 @@ Color: s_white              #ECEBED                7        LightGray
 Color: s_tolopea            #2C2540                7        LightGray
 Color: s_oslogray           #888690                7        LightGray
 Color: s_lightgray          #D4D3D7                7        LightGray
-Color: s_yellow             #FEDE5D                11       Yellow
+Color: s_yellow90           #E7CB59                11       Yellow
+Color: s_yellow100          #FEDE5D                11       Yellow
 Color: s_governorbay100     #7f87c4                14       Cyan
-Color: s_governorbay120     #afb3da                14       Cyan
+Color: s_governorbay120     #AFB3DA                14       Cyan
 Color: s_grape              #3E3B4B                8        DarkGray
 Color: s_red100             #E55A5E                9        Red
 Color: s_red70              #B4353A                9        Red
@@ -46,7 +47,7 @@ Color: s_green              #90DEB6                121      LightGreen
 # Terminal colors {{{
 # Vim by default does not define g:terminal_ansi_colors
 Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgrey
-Term Colors: darkgrey red green s_yellow blue s_magenta cyan white
+Term Colors: darkgrey red green s_yellow100 blue s_magenta cyan white
 # }}}
 
 # Common linked groups {{{
@@ -137,7 +138,7 @@ Pmenu                s_white             s_tolopea
 PmenuSbar            none                s_grape
 PmenuSel             s_white             s_governorbay100
 PmenuThumb           none                s_white
-Search               black               s_yellow
+Search               black               s_yellow100
 SignColumn           s_oslogray          none
 SignColumn           s_white             none
 SpecialKey           s_white             s_tolopea
@@ -147,11 +148,11 @@ TabLine              s_governorbay100    s_tolopea
 TabLineFill          none                s_tolopea
 TabLineSel           s_lightred          s_tolopea
 Title                s_magenta           none
-Todo                 black               s_yellow
+Todo                 black               s_yellow90
 VertSplit            s_tolopea           s_governorbay100  reverse
 Visual               none                s_grape
 VisualNOS            none                none              underline,bold
-WildMenu             black               s_yellow
+WildMenu             black               s_yellow100
 # Other conventional group names (see `:help group-name`)
 Comment              s_governorbay100    none
 Constant             s_red100            none
@@ -160,9 +161,9 @@ ErrorMsg             s_white             s_red70
 Identifier           cyanidentifier      none
 Ignore               black               none
 Include              s_green             none
-PreProc              s_yellow            none
+PreProc              s_yellow100         none
 Special              s_orange            none
-Statement            s_yellow            none
+Statement            s_yellow100         none
 String               s_orange            none
 Type                 s_red100            none
 Underlined           cyanidentifier      none              underline
