@@ -32,10 +32,11 @@ Color: s_tolopea            #2C2540                7        LightGray
 Color: s_oslogray           #888690                7        LightGray
 Color: s_lightgray          #D4D3D7                7        LightGray
 Color: s_yellow             #FEDE5D                11       Yellow
-Color: s_governorbay        #7f87c4                14       Cyan
-Color: s_governorbay2       #afb3da                14       Cyan
+Color: s_governorbay100     #7f87c4                14       Cyan
+Color: s_governorbay120     #afb3da                14       Cyan
 Color: s_grape              #3E3B4B                8        DarkGray
-Color: s_red                #E55A5E                9        Red
+Color: s_red100             #E55A5E                9        Red
+Color: s_red70              #B4353A                9        Red
 Color: s_lightred           #EB8F82                224      LightRed
 Color: s_magenta            #D884C7                13       Magenta
 Color: s_orange             #EA9652                224      LightRed
@@ -128,13 +129,13 @@ DiffAdd              s_green             none
 DiffChange           s_magenta           none
 DiffDelete           s_lightred          none              g=bold
 DiffText             red                 none              bold
-FoldColumn           s_governorbay       s_tolopea
-Folded               s_governorbay       s_tolopea
+FoldColumn           s_governorbay100    s_tolopea
+Folded               s_governorbay100    s_tolopea
 LineNr               s_oslogray          none
-NonText              s_governorbay       none              g=bold
+NonText              s_governorbay100    none              g=bold
 Pmenu                s_white             s_tolopea
 PmenuSbar            none                s_grape
-PmenuSel             s_white             s_governorbay
+PmenuSel             s_white             s_governorbay100
 PmenuThumb           none                s_white
 Search               black               s_yellow
 SignColumn           s_oslogray          none
@@ -142,19 +143,20 @@ SignColumn           s_white             none
 SpecialKey           s_white             s_tolopea
 StatusLine           s_white             s_tolopea         reverse,bold
 StatusLineNC         s_white             s_tolopea         reverse
-TabLine              s_governorbay       s_tolopea
+TabLine              s_governorbay100    s_tolopea
 TabLineFill          none                s_tolopea
 TabLineSel           s_lightred          s_tolopea
 Title                s_magenta           none
 Todo                 black               s_yellow
-VertSplit            s_tolopea           s_governorbay     reverse
+VertSplit            s_tolopea           s_governorbay100  reverse
 Visual               none                s_grape
 VisualNOS            none                none              underline,bold
 WildMenu             black               s_yellow
 # Other conventional group names (see `:help group-name`)
-Comment              s_governorbay       none
-Constant             s_red               none
-Error                s_white             red
+Comment              s_governorbay100    none
+Constant             s_red100            none
+Error                s_white             s_red100
+ErrorMsg             s_white             s_red70
 Identifier           cyanidentifier      none
 Ignore               black               none
 Include              s_green             none
@@ -162,7 +164,7 @@ PreProc              s_yellow            none
 Special              s_orange            none
 Statement            s_yellow            none
 String               s_orange            none
-Type                 s_red               none
+Type                 s_red100            none
 Underlined           cyanidentifier      none              underline
 
 # Ruby
@@ -171,9 +173,9 @@ rubyBoolean          s_lightred          none
 # }}}
 
 # gitcommit             Foreground          Background       Attributes
-gitcommitSelectedType   s_governorbay2      none 
+gitcommitSelectedType   s_governorbay120    none 
 gitcommitSelectedFile   s_green             none 
-gitcommitUntrackedFile  s_red               none
+gitcommitUntrackedFile  s_red100            none
 # }}}
 
 # coc.nvim
