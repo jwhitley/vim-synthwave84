@@ -148,7 +148,7 @@ TabLine              s_governorbay100    s_tolopea
 TabLineFill          none                s_tolopea
 TabLineSel           s_lightred          s_tolopea
 Title                s_magenta           none
-Todo                 black               s_yellow90
+Todo                 s_yellow90          none              underline,bold
 VertSplit            s_tolopea           s_governorbay100  reverse
 Visual               none                s_grape
 VisualNOS            none                none              underline,bold
