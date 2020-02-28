@@ -59,6 +59,8 @@ Conditional              -> Statement
 Define                   -> PreProc
 Debug                    -> Special
 Delimiter                -> Special
+Error                    -> swErrorHi
+ErrorMsg                 -> swError
 Exception                -> Statement
 Float                    -> Number
 Function                 -> Identifier
@@ -69,6 +71,7 @@ Number                   -> Constant
 Operator                 -> Statement
 PreCondit                -> PreProc
 Repeat                   -> Statement
+Special                  -> swWarning
 SpecialChar              -> Special
 SpecialComment           -> Special
 StorageClass             -> Type
@@ -76,6 +79,10 @@ Structure                -> Type
 Tag                      -> Special
 Typedef                  -> Type
 lCursor                  -> Cursor
+CocErrorVirtualText      -> swError
+CocWarningVirtualText    -> swWarning
+CocInfoVirtualText       -> swInfo
+CocHintVirtualText       -> swHint
 jsFlowMaybe              -> Normal
 jsFlowObject             -> Normal
 jsFlowType               -> PreProc
@@ -162,11 +169,16 @@ Identifier           cyanidentifier      none
 Ignore               black               none
 Include              s_green             none
 PreProc              s_yellow100         none
-Special              s_orange            none
 Statement            s_yellow100         none
 String               s_orange            none
 Type                 s_red100            none
 Underlined           cyanidentifier      none              underline
+
+swErrorHi            s_white             s_red100
+swError              s_white             s_red70
+swWarning            s_orange            none
+swInfo               s_oslogray          none
+swHint               s_green             none
 
 # Ruby
 rubySymbol           s_lightred          none
@@ -185,7 +197,4 @@ CocErrorHighlight       none                none             undercurl guisp=red
 CocWarningHighlight     none                none             undercurl guisp=s_orange
 CocInfoHighlight        none                none             undercurl guisp=s_lightgray
 CocHintHighlight        none                none             undercurl guisp=s_green
-CocErrorVirtualText     s_oslogray          none
-CocWarningVirtualText   s_oslogray          none
-CocInfoVirtualText      s_oslogray          none
-CocHintVirtualText      s_oslogray          none
+CocCodeLens             s_oslogray          none
