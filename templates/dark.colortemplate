@@ -27,6 +27,7 @@ Color: darkyellow           DarkYellow             3        DarkYellow
 Color: darkgrey             DarkGrey               8        DarkGrey
 
 Color: s_steelgray          #262335                8        DarkGray
+Color: s_eightiesgray       #393939                8        DarkGray
 Color: s_white              #ECEBED                7        LightGray
 Color: s_tolopea            #2C2540                7        LightGray
 Color: s_oslogray           #888690                7        LightGray
@@ -149,8 +150,8 @@ Search               black               s_yellow100
 SignColumn           s_oslogray          none
 SignColumn           s_white             none
 SpecialKey           s_white             s_tolopea
-StatusLine           s_white             s_tolopea         reverse,bold
-StatusLineNC         s_white             s_tolopea         reverse
+StatusLine           s_yellow90          s_eightiesgray    bold
+StatusLineNC         s_white             s_eightiesgray
 TabLine              s_governorbay100    s_tolopea
 TabLineFill          none                s_tolopea
 TabLineSel           s_lightred          s_tolopea
