@@ -32,6 +32,7 @@ Color: s_white              #ECEBED                7        LightGray
 Color: s_tolopea            #2C2540                7        LightGray
 Color: s_oslogray           #888690                7        LightGray
 Color: s_lightgray          #D4D3D7                7        LightGray
+Color: s_yellow70           #DFC024                11       Yellow
 Color: s_yellow90           #E7CB59                11       Yellow
 Color: s_yellow100          #FEDE5D                11       Yellow
 Color: s_governorbay100     #7f87c4                14       Cyan
@@ -199,3 +200,4 @@ CocWarningHighlight     none                none             undercurl guisp=s_o
 CocInfoHighlight        none                none             undercurl guisp=s_lightgray
 CocHintHighlight        none                none             undercurl guisp=s_green
 CocCodeLens             s_oslogray          none
+CocCursorRange          s_tolopea           s_yellow70       underline
