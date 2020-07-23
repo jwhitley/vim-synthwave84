@@ -6,6 +6,7 @@ Short name: synthwave84
 Author: Anikin Artyom <anikinartyom@gmail.com>
 Maintainer: Anikin Artyom <anikinartyom@gmail.com>
 Website: https://github.com/artanikin/vim-synthwave84
+Neovim: yes
 # }}}
 
 # Color palette {{{
