@@ -171,7 +171,7 @@ Identifier           cyanidentifier      none
 Ignore               black               none
 Include              s_green             none
 PreProc              s_yellow100         none
-Statement            s_yellow100         none
+Statement            s_yellow100         none              italic
 String               s_orange            none
 Type                 s_red100            none
 Underlined           cyanidentifier      none              underline
